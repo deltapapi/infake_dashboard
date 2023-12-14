@@ -2,37 +2,40 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.topbar {
+  min-height: 3.5rem;
+  max-height: 5vh;
+  background-color: #eee;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.influx-logo {
+  height: 7rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.meiao {
+  max-height: 73.8rem;
+  overflow-y: auto;
 }
 
-.App-link {
-  color: #61dafb;
+.online-ball {
+  background-color: rgb(18, 208, 18);
+  height: 0.8rem;
+  width: 0.8rem;
+  border: 3px solid white;
+  border-radius: 50%;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  background-color: #eee; /* or add it to the track */
+  border-radius: 5px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 5px;
 }
