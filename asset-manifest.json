@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/infake_dashboard/static/css/main.bc7ac099.css",
+    "main.js": "/infake_dashboard/static/js/main.65ff5eef.js",
+    "static/js/496.d0be4385.chunk.js": "/infake_dashboard/static/js/496.d0be4385.chunk.js",
+    "index.html": "/infake_dashboard/index.html",
+    "main.bc7ac099.css.map": "/infake_dashboard/static/css/main.bc7ac099.css.map",
+    "main.65ff5eef.js.map": "/infake_dashboard/static/js/main.65ff5eef.js.map",
+    "496.d0be4385.chunk.js.map": "/infake_dashboard/static/js/496.d0be4385.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bc7ac099.css",
+    "static/js/main.65ff5eef.js"
+  ]
+}
